@@ -11,7 +11,7 @@ function deleteNth(arr, n) {
   let result = arr.reduce(
     (num, cur) =>
       num.filter((i) => i === cur).length < n ? [...num, cur] : num,
-    []
+    [] // initialState
   );
   return result;
 }

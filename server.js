@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const func = require("./algorithms/enoughIsEnough");
+const func = require("./algorithms/digPow");
 
-const result = func.deleteNth([1, 1, 3, 3, 7, 2, 2, 2, 2], 3);
+const result = func.digPow(89, 1);
 console.log({ result });
 const port = 3000;
 app.listen(port, () => {
