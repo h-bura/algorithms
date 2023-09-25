@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const func = require("./algorithms/isPrime");
+const func = require("./algorithms/primeFactors");
 
-const result = func.isPrime(29);
+const result = func.primeFactors(55);
 console.log({ result });
 const port = 3000;
 app.listen(port, () => {
