@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const func = require("./algorithms/fibonicce");
+const func = require("./algorithms/greatestCommonDivider");
 
-const result = func.fibonicce(5);
+const result = func.greatestCommonDivider(21, 14);
 console.log({ result });
 const port = 3000;
 app.listen(port, () => {
