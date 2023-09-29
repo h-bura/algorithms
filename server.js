@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const func = require("./algorithms/mergeSortedArray");
+const func = require("./algorithms/reverseInPlace");
 
-const result = func.mergeSortedArray([28], [1, 2, 3, 29]);
+const result = func.reverseInPlace("I am the good boy");
 console.log({ result });
 const port = 3000;
 app.listen(port, () => {
