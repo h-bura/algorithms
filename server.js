@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const func = require("./algorithms/missingNumber");
+const func = require("./algorithms/sumOfTwo");
 
-const result = func.missingNumber([1, 5, 8, 9, 6, 7, 2, 3]);
+const result = func.sumOfTwo([1, 5, 8, 9, 6, 7, 2, 3], 17);
 console.log({ result });
 const port = 3000;
 app.listen(port, () => {
