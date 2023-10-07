@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const func = require("./algorithms/sumOfTwo");
+const func = require("./algorithms/countZero");
 
-const result = func.sumOfTwo([1, 5, 8, 9, 6, 7, 2, 3], 17);
+const result = func.countZero(50);
 console.log({ result });
 const port = 3000;
 app.listen(port, () => {
